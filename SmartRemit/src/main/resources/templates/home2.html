@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+	<title>Best Remit</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Hello, ' + ${name} + '!'" />
+
+<h2>
+Best Remittance Rates :)
+</h2>
+
+<h4>
+	<p th:text="'Bank Of India - SGD to INR : ' + ${boiRate} + '!'"/>
+</h4>
+
+<h4>
+		<p th:text="'State Bank of India - SGD to INR : ' + ${sbiRate} + ''"/>	
+</h4>
+	<p th:text="'The time on the server is ' + ${serverTime} + '!'"/>
+
+</body>
+
+</html>
